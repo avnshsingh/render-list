@@ -1,0 +1,25 @@
+.productList {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  margin-top: 1.5vh;
+  gap: 30px;
+}
+.pdtList{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.heading {
+  width: 172px;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}

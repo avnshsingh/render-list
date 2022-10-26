@@ -1,0 +1,71 @@
+.pdtContainer {
+  box-sizing: border-box;
+  width: 366px;
+  margin-left: 14px;
+  display: inline-block;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.buttonContainer{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.pdtContainer .buttonContainer button{
+    background-color: #23A6F0;
+    color: white;
+    font-family: 'Montserrat';
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+}
+.img {
+  width: 366px;
+  /* height: 307px; */
+  max-height: 60%;
+  left: 69px;
+  top: 820px;
+  border-radius: 10px 10px 0px 0px;
+}
+.pdtDetails {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.pdtPrice {
+  display: flex;
+  justify-content: space-between;
+}
+.pdtName {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+.oldPrice {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-decoration-line: line-through;
+  color: #444444;
+}
+.newPrice {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
